@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import HelloWorld from './component/HelloComponent';
+import StatefullHelloWorld from './container/StatefullComponent';
 
-const HelloWorld = ()=>{
-  return <p>Hello World</p>
-}
 ReactDOM.render(
   <React.StrictMode>
     <HelloWorld />
+    <StatefullHelloWorld/>
   </React.StrictMode>,
   document.getElementById('root')
 );
