@@ -1,0 +1,8 @@
+INSTALASI
+---------
+sudo npm install -g create-react-app
+create-react-app react-hello-world
+# masuk ke folder react-hello-world, ketik perintah:
+cd react-hello-world
+npm start
+
